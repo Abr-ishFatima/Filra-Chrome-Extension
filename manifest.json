@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Filra",
   "version": "1.0",
-  "description": "A cute anime character roaming on the screen",
+  "description": "The Claude's flowery styled logo roaming on the screen created for the Major League Hacking event. Made with love for Claude-lovers",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
