@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Filra",
+  "version": "1.0",
+  "description": "A cute anime character roaming on the screen",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": ["character.gif"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png"
+  }
+}
